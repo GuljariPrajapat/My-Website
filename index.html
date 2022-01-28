@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="./images/web tutorial 39.png" alt="">
+                <span class="logo-name">Web Tutorial 39</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com/c/WebTutorial39">Channel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Notes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.tutorialspoint.com/html/html_tutorial.pdf">HTML Notes</a>
+                            <a class="dropdown-item" href="https://www.tutorialspoint.com/css/css_tutorial.pdf">CSS Notes</a>
+                            <a class="dropdown-item" href="https://www.tutorialspoint.com/javascript/javascript_tutorial.pdf">Java script Notes</a>
+                            <a class="dropdown-item" href="https://www.tutorialspoint.com/bootstrap/bootstrap_tutorial.pdf">Bootstrap Notes</a>
+                            <a class="dropdown-item" href="https://www.tutorialspoint.com/jquery/jquery_tutorial.pdf">Jquery Notes</a>
+                            <a class="dropdown-item" href="https://www.tutorialspoint.com/php/php_tutorial.pdf">PHP Notes</a>
+                            <a class="dropdown-item" href="https://helpx.adobe.com/pdf/photoshop_reference.pdf">Photoshop Notes</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="btn rounded-pill btn-dark py-2 px-4" href="#">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section>
+        <header>
+            <div id="indicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#indicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#indicators" data-slide-to="1"></li>
+                    <li data-target="#indicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active"
+                        style="background-image: url('images/emile-perron-xrVDYZRGdw4-unsplash.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4">Website Development</h3>
+                            <p class="lead">Some description about the first slide</p>
+                        </div>
+                    </div> <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item"
+                        style="background-image: url('images/thanzi-thanzeer-dym3_MMlJGI-unsplash.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4">Graphic Design</h3>
+                            <p class="lead">Some description about the second slide</p>
+                        </div>
+                    </div> <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image: url('images/headway-5QgIuuBxKwM-unsplash.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4">PHP Developments</h3>
+                            <p class="lead">Some description about the third slide</p>
+                        </div>
+                    </div>
+                </div> <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev"> <span
+                        class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                        class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#indicators"
+                    role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span> </a>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        <div class="container mt-4 d-flex justify-content-center">
+            <div class="row g-0">
+                <div class="col-md-4 border-right">
+                    <div class="cards">
+                        <div class="first bg-white p-4 text-center">
+                            <h5 class="cardh5">Website Development</h5>
+                            <p class="line1">Having a well-designed, functioning website has never been more important.
+                                Boss Brain will not only ensure that your website looks amazing, but also focus on a
+                                straightforward user experience that will convert visitors</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 border-right">
+                    <div class="cards">
+                        <div class=" second bg-white p-4 text-center">
+                            <h5 class="cardh5">Graphic Design</h5>
+                            <p class="line2">A brand’s tone of voice is not always spoken, the correct visual impression
+                                says more than words ever can. So, when we put together a collection of visual assets
+                                for a brand we ensure they are saying exactly the right things.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards">
+                        <div class=" third bg-white p-4 text-center">
+                            <h5 class="cardh5">Brand Development</h5>
+                            <p class="line3">Far more than just a logo and a style guide, your brand is your business
+                                identity. Boss Brain will ask the important questions to help develop a brand that truly
+                                represents your business and makes you stand out from the crowd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <span class="counter-value">312</span>
+                        <div class="counter-content">
+                            <div class="counter-icon">
+                                <i class="fa fa-globe"></i>
+                            </div>
+                            <h3>Web Designing</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter green">
+                        <span class="counter-value">295</span>
+                        <div class="counter-content">
+                            <div class="counter-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <span class="counter-value">312</span>
+                        <div class="counter-content">
+                            <div class="counter-icon">
+                                <i class="fa fa-globe"></i>
+                            </div>
+                            <h3>Brand Building</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter green">
+                        <span class="counter-value">295</span>
+                        <div class="counter-content">
+                            <div class="counter-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <h3>Responsive Design</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.counter-value').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 3500,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+});
+</script>
+</body>
+
+</html>
